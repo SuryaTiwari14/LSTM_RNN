@@ -1,4 +1,4 @@
-tensorflow==2.15
+tensorflow==2.20
 pandas
 numpy
 scikit-learn
@@ -9,5 +9,6 @@ scikeras
 protobuf==3.20.3
 nltk
 altair==4.2.2
+
 
 
