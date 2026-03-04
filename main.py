@@ -6,7 +6,7 @@ from tensorflow.keras.utils  import pad_sequences
 
 ### load the mode 
 
-model=load_model('next_word_lstm.h5')
+model=load_model('next_word_lstm.keras')
 
 with open('tokenizer.pickle','rb') as handle:
     tokenizer = pickle.load(handle)
@@ -33,3 +33,4 @@ if st.button("Predict Next Word"):
     max_sequence_len = model.input_shape[1] + 1
     next_word = predict_next_word(model,tokenizer,input_text,max_sequence_len)
     st.write(input_text + " " + next_word)
+
