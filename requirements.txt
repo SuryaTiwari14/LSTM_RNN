@@ -1,4 +1,4 @@
-tensorflow==2.20
+tensorflow==2.15
 pandas
 numpy
 scikit-learn
@@ -8,4 +8,5 @@ streamlit
 scikeras
 protobuf==3.20.3
 nltk
+
 
